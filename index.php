@@ -28,7 +28,7 @@
       <tbody>
         <?php
 
-         $conexion = mysqli_connect(35.188.81.235, root, getenv('MYSQL_PASSWORD'), "PRUEBA");
+         $conexion = mysqli_connect(34.171.116.152, 'root', 123, "examen_santiago");
 
         $cadenaSQL = "select * from s_cliente";
         $resultado = mysqli_query($conexion, $cadenaSQL);
